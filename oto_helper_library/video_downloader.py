@@ -1,24 +1,24 @@
 """
 
-When an video file is passed along with the name of an output file, exrtact the meta data information of the passed video and write it out to the file.
+This is a helper function that is meant to be used to download videos for cloud sources such as OneDrive, DropBox, Google-Drive, etc. 
 
 """
 
 
-def extract_meta_data(video, output_file, *args, **kwargs):
+def download(url, *args, **kwargs):
 
     """
 
     #TODO
     
     - Fill this with the documentation of the code. i.e. the docstring.
-    - Accomadate for the different video file types such as mp4, mkv, raw, etc.
+    - Find a way to validate the url, return error if the URL is not in format. 
 
-    - Add arguments to accomadate, if needed.
+    - Add arguments to accomadate for different cloud providers. 
 
     - Add requirements to requirements.txt usign "pip freeze > requirements"
 
-    - Make sure the meta data output file is human readable. 
+    - Make downloads resumable if it has any network issues. 
 
     """
 
