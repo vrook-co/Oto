@@ -4,7 +4,7 @@ This function is used to convert the passed video file into a audio file for fur
 
 """
 
-
+import moviepy.editor as mp 
 def extract_audio(video_file_name, audio_output_file=audio.mp3, *args, **kwargs):
 
     """
@@ -23,5 +23,9 @@ def extract_audio(video_file_name, audio_output_file=audio.mp3, *args, **kwargs)
 
 
     """
-
-
+    video_file_extensions = (".mp4", ".mkv", ".raw", ".mov", ".flv", ".wmv", ".avi", ".webm")
+    if video_file_name.endswith((video_file_extensions)):
+        clip = mp.VideoFileClip(r"{0}".format(video_file_name))
+        clip.audio.write_audiofile(r"{0}".format(audio_output_file))        
+    else:
+        print("Video file format not supported")
