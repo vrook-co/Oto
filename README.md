@@ -1,15 +1,17 @@
 # OTP Helper
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](https://github.com/vrook-co/oto-helper/blob/master/LICENSE)
 
 ## About
 
-This porject is about downloading files from cloud storage provides like google drive, dropbox, etc.
+This project is about downloading files from cloud storage provides like google drive, dropbox, etc.
 
 ## Installation
 
-1. Install python > 3
-2. Install requirements.txt
+Install python > 3.5
+```
+pip install -r requirements.txt
+```
 
 ## Usage
 
@@ -23,7 +25,7 @@ This porject is about downloading files from cloud storage provides like google 
 
 ## License
 
-[Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
+[MIT License](https://github.com/vrook-co/oto-helper/blob/master/LICENSE)
 
 
 # 🎃 Hacktoberfest 🎃
