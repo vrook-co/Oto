@@ -1,5 +1,7 @@
 # OTP Helper
 
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 ## About
 
 This porject is about downloading files from cloud storage provides like google drive, dropbox, etc.
