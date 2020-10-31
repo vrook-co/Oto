@@ -4,20 +4,22 @@
 
 ### Learn Git and Github
 
-All our development is done using Git and Github. If you're not too familiar with Git and Github, start by reviewing this guide. <https://guides.github.com/activities/hello-world/>
+All our development here in this repository is done using Git and Github. If you're not very much familiar with Git and Github, start by reviewing this guide. <https://guides.github.com/activities/hello-world/>
 
 ### Issues
 
-On <https://github.com/vrook-co/oto-helper/issues> you can find all open Issues. You can find a detailed explanation on how to work with issues below under [Issue Allocation](#issue-allocation).
+On <https://github.com/vrook-co/oto-helper/issues> you can find all open Issues. You can find a detailed explanation on how to work on issues below under [Issue Allocation](#issue-allocation).
 
 ## Setup
 
 ### Forking a Repository
 
-To contribute to oto-helper you will need to fork the this repository.
-Then you can work risk-free on your fork.
+To contribute to oto-helper you'll need to fork this repository(oto-helper) into your github account.
+Then you can work risk-free on your fork without affecting oto-helper repository.
 
-You will just need to fork once. After that you can call `git fetch upstream` and `git pull 'branch-name'` before you do your local changes to get the remote changes and be up-to-date
+To work on an issue in your local computer write `git clone https://github.com/<your-username>/oto-helper.git` command into terminal. Which will copy the whole code to your computer. 
+
+You'll just need to fork once. After that you can call `git fetch upstream` and `git pull 'branch-name'` before you do your local changes to get the remote changes and be up-to-date.
 
 ### Setting up Pre-Commit Hook
 
@@ -25,7 +27,7 @@ You can install it with the command `pip install pre-commit`
 
 Then you just need to call `pre-commit install`
 
-This can all also be done by running `make install_hooks`
+All this can also be done by running command `make install_hooks`
 
 ### Syncing a Forked Repository
 
@@ -35,9 +37,9 @@ To sync your fork with this repository please see this [Guide](https://help.gith
 
 ### Issue Allocation
 
-If you want to work on an open issue, please post a comment telling that you will work on that issue, we will assign you as the assignee then.
+If you want to work on an open issue, please post a comment telling that you'll work on that issue, we will assign that issue to you as the assignee then.
 
-**Caution**: We try our best to keep the assignee up-to-date, but as we are all humans with our own schedule delays are possible, so make sure to check the comments once before you start working on an issue even when no one is assigned to it.
+**Caution**: We will try our best to keep the assignee up-to-date, but as we are all humans with our own schedule delays are possible, so make sure to check the comments once before you start working on an issue even when no one is assigned to it.
 
 ### Writing Test Cases
 
@@ -67,11 +69,11 @@ def test_hooked_tensor(self, compress, compressScheme):
 ```
 ### Documentation and Codestyle
 
-To ensure code quality and make sure other people can understand your changes, you have to document your code. For documentation we are using the Google Python Style Rules which can be found [here](https://github.com/google/styleguide/blob/gh-pages/pyguide.md). A well wrote example can we viewed [here](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html).
+To ensure code quality and make sure other people can understand your changes, make proper documentation for your code. For documentation we are using the Google Python Style Rules which can be found [here](https://github.com/google/styleguide/blob/gh-pages/pyguide.md). A well-written example can be viewed [here](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html).
 
-You documentation should not describe the obvious, but explain what's the intention behind the code and how you tried to realize your intention.
+You documentation should explain what's the intention behind the code and how you tried to realize your intention.
 
-You should also document non self-explanatory code fragments e.g. complicated for-loops. Again please do not just describe what each line is doing but also explain the idea behind the code fragment and why you decided to use that exact solution.
+You should also document non self-explanatory code fragments e.g. complicated for-loops. Again please don't just describe about each line, but explain the idea behind the code fragment and why you've decided to use that exact solution.
 
 #### Type Checking
 
@@ -96,3 +98,5 @@ We will only merge PRs that pass the tests.
 
 If your check fails, don't worry, you will still be able to make changes and make your code pass the checks.
 
+### Final Words
+Thank you all who have contributed to this repository(oto-helper). I hope that this repository will be beneficial to all who need help in this repository. But please use this repository wisely.
