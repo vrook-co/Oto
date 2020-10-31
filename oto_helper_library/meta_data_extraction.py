@@ -21,5 +21,15 @@ def extract_meta_data(video_file_name, output_file=meta.txt, *args, **kwargs):
     - Make sure the meta data output file is human readable. 
 
     """
-
+    video_file_extensions = (".mp4", ".mkv", ".raw", ".mov", ".flv", ".wmv", ".avi", ".webm")
+    if video_file_name.endswith((video_file_extensions)):
+        
+        '''
+        
+        #code
+        
+        '''
+        
+    else:
+        print("Video file format not supported")
 
