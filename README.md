@@ -10,6 +10,10 @@ This porject is about downloading files from cloud storage provides like google 
 
 1. Install python > 3
 2. Install requirements.txt
+  
+  
+  pip install -r requirements.txt
+  
 
 ## Usage
 
