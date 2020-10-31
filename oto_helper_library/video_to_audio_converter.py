@@ -23,5 +23,14 @@ def extract_audio(video_file_name, audio_output_file=audio.mp3, *args, **kwargs)
 
 
     """
-
-
+    video_file_extensions = (".mp4", ".mkv", ".raw", ".mov", ".flv", ".wmv", ".avi", ".webm")
+    if video_file_name.endswith((video_file_extensions)):
+        
+        '''
+        
+        #code
+        
+        '''
+        
+    else:
+        print("Video file format not supported")
