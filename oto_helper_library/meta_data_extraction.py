@@ -4,9 +4,10 @@ When an video file is passed along with the name of an output file, exrtact the 
 
 """
 
-
+from pymdeco import services
+srv = services.FileMetadataService()
 def extract_meta_data(video_file_name, output_file=meta.txt, *args, **kwargs):
-
+    
     """
 
     #TODO
@@ -23,12 +24,8 @@ def extract_meta_data(video_file_name, output_file=meta.txt, *args, **kwargs):
     """
     video_file_extensions = (".mp4", ".mkv", ".raw", ".mov", ".flv", ".wmv", ".avi", ".webm")
     if video_file_name.endswith((video_file_extensions)):
-        
-        '''
-        
-        #code
-        
-        '''
+        meta = srv.get_metadata(video_file_name)
+        print(meta.to_json(indent=2))
         
     else:
         print("Video file format not supported")
